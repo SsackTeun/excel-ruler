@@ -4,11 +4,17 @@
 
 ## 설치
 
-```bash
-./build.sh
-```
+- **도구함**이 있으면 '개발자 앱' 탭에서 엑셀자를 눌러 받으면 끝이에요.
+- 직접 받기: [Releases](https://github.com/SsackTeun/excel-ruler/releases/latest) 에서 `ExcelRuler.zip` 을 받아 압축을 풀고 Applications 폴더로.
+- 소스에서 빌드: `./build.sh` → `~/Applications/엑셀자.app` (Xcode Command Line Tools 필요)
 
-`~/Applications/엑셀자.app` 이 만들어집니다. (Xcode Command Line Tools 필요)
+macOS 12 이상, 애플 실리콘 · 인텔 모두.
+
+## 새 버전 올리기
+
+```bash
+./release.sh 1.1
+```
 
 ## 사용법
 
